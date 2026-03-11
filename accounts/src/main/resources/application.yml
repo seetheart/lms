@@ -15,5 +15,24 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active: 
+      - "qa"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Eazybank"
+  contactDetails:
+    name: "John doe"
+    email: "john@bank.com"
+  onCallSupport:
+    - (666)555-1234
+    - (666)555-1235
 
 

@@ -16,7 +16,7 @@ services:
     ports:
       - "8090:8090"
     deploy:
-      resources:
+      resources: 
         limits:
           memory: 700m
     networks:

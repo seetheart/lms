@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+cards:
+  message: "Welcome to Eazybank Prod"
+  contactDetails:
+    name: "John doe Prod"
+    email: "john_prod@bank.com"
+  onCallSupport:
+    - (666)555-1234
+    - (666)555-1235

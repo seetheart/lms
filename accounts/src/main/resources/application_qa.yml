@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+accounts:
+  message: "Welcome to Eazybank QA"
+  contactDetails:
+    name: "John doe QA"
+    email: "john_qa@bank.com"
+  onCallSupport:
+    - (666)555-1234
+    - (666)555-1235
